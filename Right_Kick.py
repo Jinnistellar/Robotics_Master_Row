@@ -155,53 +155,8 @@ def right_kick():
 
     posture.goToPosture("StandInit", 0.5)
 
-##    # Move arms so they are facing straight down again
-##    times      = 1.0                
-##    LeftArm  = [90,  25, -90, -10]
-##    LeftArm = [ x * TO_RAD for x in LeftArm]
-##
-##    RightArm = [90, -25,  90,  10]
-##    RightArm = [ x * TO_RAD for x in RightArm]
-##
-##    motion.angleInterpolation(["LShoulderPitch", "LShoulderRoll", "LElbowYaw", "LElbowRoll", "RShoulderPitch", "RShoulderRoll", "RElbowYaw", "RElbowRoll"]
-##                              , LeftArm+RightArm
-##                              , times
-##                              , True
-##                              ,_async=True
-##                              )
-##    
-##    path       = [-0.10, 0.0, -0.04, 0.0, 0.0, 0]
-##    effector   = "LLeg"
-##    motion.positionInterpolation(effector, space, path,
-##                                      axisMask, 1.9, isAbsolute,_async=True
-##                              )
-##
-##    effector   = "Torso"
-##    path       = [0.001, 0.04, 0.01, 0.0, 0.0, 0.0]
-##    motion.positionInterpolation(effector, space, path, axisMask, 2.5, isAbsolute)
-    
-
-
-
-      
-
-
-
-#    while(1):
-#        print("haha")
-
 
 if __name__ == "__main__":
 
-
-    # robotIp = "192.168.2.112"
-    # PORT = 9559
-    # session = qi.Session()
-    # try:
-    #   session.connect("tcp://" + robotIp + ":" + "9559")
-    # except RuntimeError:
-    #    print ("Can't connect to Naoqi at ip \"" + args.ip + "\" on port " + str(args.port) +".\n"
-    #           "Please check your script arguments. Run with -h option for help.")
-    #    sys.exit(1)
 
     right_kick()
