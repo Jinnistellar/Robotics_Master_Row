@@ -26,4 +26,4 @@ if __name__ == "__main__":
         Right_Kick.right_kick()
 
 
-    Config.voice_service.say("Yay, I have scored a ball, in your face")
+    Config.voice_service.say("Yay, I have scored a goal, in your face")

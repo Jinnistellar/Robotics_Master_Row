@@ -45,7 +45,7 @@ def GetImage():
 
     t1 = time.time()
 
-    # Time the image transfer.
+    # Time the image transfer (measured in seconds)
     print "acquisition delay ", t1 - t0
     camProxy.unsubscribe(videoClient)
 
