@@ -49,9 +49,9 @@ Here, our objective is:
                 - Then use erode/dilate to bring the segemented images together
                 - Find contours of the ball, and then to draw a rectangle around it
 
-Left_Kick:
-
-Right_Kick:
+Left_Kick/Right_kick:
+         1) Using proxy for motion
+         2) 
 
 
 
